@@ -1,0 +1,20 @@
+{
+  "name": "@e1ectron1k/ajs-git",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/e1ectron1k/ajs#readme",
+  "bugs": {
+    "url": "https://github.com/e1ectron1k/ajs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e1ectron1k/ajs.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
