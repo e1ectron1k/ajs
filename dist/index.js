@@ -1,17 +1,1 @@
-(function (root, factory) {
-    if (typeof define === 'function' && define.amd) {
-        define([], factory);
-    } else if (typeof module === 'object' && module.exports) {
-        module.exports = factory();
-    } else {
-        root.ajs = factory();
-    }
-}(typeof self !== 'undefined' ? self : this, function () {
-    function info() {
-        const m = new Map();
-        m.set('name', 'ajs');
-        m.set('version', '1.0.0');
-        return m;
-    }
-    return { info: info };
-}));
+!function(e,t){"object"==typeof exports&&"object"==typeof module?module.exports=t():"function"==typeof define&&define.amd?define([],t):"object"==typeof exports?exports.ajs=t():e.ajs=t()}(this,function(){return e={776:function(e,t){var o,n;"undefined"!=typeof globalThis?globalThis:"undefined"!=typeof self&&self,void 0===(n="function"==typeof(o=function(e){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0,e.default={info:function(){const e=new Map;return e.set("name","ajs"),e.set("version","1.0.3"),e}}})?o.apply(t,[t]):o)||(e.exports=n)}},t={},function o(n){var f=t[n];if(void 0!==f)return f.exports;var r=t[n]={exports:{}};return e[n].call(r.exports,r,r.exports,o),r.exports}(776).default;var e,t});
